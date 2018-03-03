@@ -1,0 +1,263 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Reboto",sans-serif;
+}
+button:focus {
+	outline: none;
+}
+a {
+	text-decoration: none;
+}
+section {
+	padding-top:8%;
+}
+h1, h2, h3, h4, h5, h6, li, p, a, input, button {
+	font-weight: lighter;
+	line-height: 150%;
+}
+h3	{
+	font-size: 40px;
+}
+h4 {
+	font-size: 18px;
+	font-weight: bold;
+}
+h5	{
+	font-size: 20px;
+}
+h6	{
+	font-size: 18px;
+}
+.no-style-list {
+	list-style-type: none;
+}
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.position-sections {
+	width: 50%;
+	float: left;
+	margin-right: 5%;
+}
+.position-sections-r {
+	width: 45%;
+	float: right;
+}
+.position-sections-3 {
+	width: 100%;
+	text-align: center;
+}
+.button {
+	width: 160px;
+	height: 40px;
+	border-radius: 20px;
+	border: none;
+	font-size: 16px;
+	color: rgba(255,255,255,0.9);
+}
+
+/* NAVBAR ********************************************/
+nav	{
+	background-color: #C12127;
+	height: 30px;
+	padding-top: 10px;
+}
+nav a {
+	color: rgba(255,255,255,0.8);
+}
+nav a:hover {
+	color: rgba(255,255,255,0.9);
+}
+.top-left {
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin: 0 0 0 20px;
+}
+.heart {
+	margin-right: 20px;
+}
+.top-links {
+	display: inline-block;
+	float: right;
+	margin: 0 20px 0 0;
+}
+.top-links li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+/* HEADER ********************************************/
+.header	{
+	background-image: url("images/city-scape.svg");
+	position: 0 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 450px;
+	position: relative;
+	width: 100%;
+}
+
+/* TOP */
+.top-header	{	
+	display: inline-block;
+	vertical-align: middle;
+	float: left;
+	width: 100%;
+	height: 30px;
+	padding: 20px 20px;
+}
+#npm-header {
+	position: relative;
+	float: left;
+	width: 150px;
+}
+#npm-header img {
+	width: 130px;
+}
+#input-container {
+	position: relative;
+	float: left;
+	display: inline-block;
+	vertical-align: middle;
+	width: 70%;
+}
+#input-container input {
+	-webkit-appearance:none;
+	width: 95%;
+	height: 50px;
+	padding: 1px 0 1px 10px;
+	border: solid 1px rgba(255,255,255,0.3);
+	background-color: rgba(0,0,0,0.1);
+	color: rgba(255,255,255,0.8);
+	font-size: 16px;
+	margin-right: -5px;
+}
+#input-container button {
+	border: solid 1px rgba(255,255,255,0.3);
+	border-left:none; 
+	background-color: rgba(0,0,0,0.1);
+	color: rgba(255,255,255,0.8);
+	height: 50px;
+	font-size: 16px;
+	width: 50px;
+}
+#input-container input:focus {
+	outline: none;
+}
+#oso-container {
+	
+	padding-right: 20px;
+	float: right;
+	width: 170px;
+}
+#oso-container li {
+	display: inline-block;
+	vertical-align: middle;
+}
+#oso-container a {
+	color: rgba(255,255,255,0.7);
+}
+#oso-container a:hover {
+	color: rgba(255,255,255,0.9);
+}
+#oso-container img {
+	width: 50px;
+	opacity: 0.9;
+}
+#oso-container img:hover {
+	opacity: 1;
+}
+
+/* BOT */
+.bot-header {
+	color: white;
+}
+.bot-header h1 {
+	font-size: 50px;
+	padding-top: 10%;
+}
+.bot-header button {
+	background-color: rgba(240, 146, 51, 0.9);
+	color: rgba(255,255,255,0.9);
+}
+
+/* SECTION 1 ********************************************/
+.collaboration-section {
+	height: 480px;
+	background-color: rgb(39, 53, 71);
+	color: white;
+}
+.collaboration-section a {
+	color: white;
+}
+.collaboration-section a:hover {
+	text-decoration: underline;
+}
+.collaboration-section button {
+	margin-top:30px;
+	margin-bottom: 5px;
+	background-color: rgb(203, 56, 55);
+}
+.collaboration-section li{
+	margin-top:12px;
+}
+.collaboration-section a {
+	font-weight: 500;
+}
+#collaboration-img img {
+	width: 100%;
+}
+
+
+/* SECTION 2 ********************************************/
+.npm-section {
+	background-image: url("images/forklift.svg");
+	height: 480px;
+	color: white;
+}
+.npm-container button {
+	background-color: rgb(49, 68, 88);	
+}
+/* SECTION 3 ********************************************/
+.blocks-section {
+	height: 450px;
+	padding-top: 4%;
+	background-color: white;
+}
+.blocks-section h3 {
+	 color: rgb(83, 88, 98);
+}
+.blocks-section h4 {
+	color: rgb(83, 88, 98);
+	margin: 10px 0;
+}
+.blocks-section h6 {
+	color: rgb(135, 145, 156);
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+.blocks-section p {
+	color: rgb(135, 145, 156);
+	padding: 0 50px;
+}
+.blocks-section a {
+	color: rgb(208, 74, 73);
+}
+.blocks-section a:hover {
+	text-decoration: underline;
+}
+.blocks {
+	width: 33%;
+	float: left;
+	
+}
+
+
+
+
+
